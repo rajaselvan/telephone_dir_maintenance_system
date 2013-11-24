@@ -1,0 +1,12 @@
+MYSQL TABLES
+============
+
+create table User(username varchar(30) primary key, password varchar(30) not null);
+
+insert into User values("user","password");
+
+create table Department(deptcode int primary key, deptname varchar(30) not null);
+
+create table Employee(empid int primary key, empname varchar(30) not null, deptcode int not null, location varchar(30) not null, foreign key(deptcode) references Department(deptcode) on delete cascade);
+
+create table Telephone(telno bigint primary key,  empid int  not null , deptcode int not null , location varchar(30) not null, foreign key(empid)  references Employee(empid),  foreign key(deptcode)  references Department(deptcode) on delete cascade);
