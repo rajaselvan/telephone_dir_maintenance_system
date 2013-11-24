@@ -1,16 +1,8 @@
 package Models;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import javax.swing.JOptionPane;
-import net.proteanit.sql.DbUtils;
-import java.util.Vector;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
+import java.util.*;
 /**
  *
  * @author rajaselvan
