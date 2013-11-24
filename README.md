@@ -2,11 +2,8 @@ telephone_dir_maintenance_system
 ================================
 
 
-The system is been designed to maintain the details of departments, employees and telephone number details through a JDBC application. Unique numbers are generated for any new employee, new department and new telephone number.
-
-Unique number generation for new employee, new department and new telephone no.
-Retrieval of telephone details based on employee name.
-Deletion of department deletes all the employees belonging to that department.
+The system is been designed to maintain the details of departments, employees and telephone number details through a Java Swing and mysql application 
+Unique number generation for new employee, new department and new telephone no. Retrieval of telephone details based on employee name. Deletion of department deletes all the employees belonging to that department.
 
 Main Modules
 ============
@@ -14,20 +11,11 @@ Main Modules
 
 1. Department Maintenance
 
-Add Departments
-Delete Departments
-
-
 2. Employee Maintenance
-
-Add Employee
-Edit Employee
-
 
 3. Telephone directory Maintenance
 
-Add Telephone numbers
-Enquiry by Employee name
+
 
 
 Department Maintenance
